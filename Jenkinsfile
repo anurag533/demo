@@ -80,12 +80,3 @@ bat 'mvn sonar:sonar'
 
  
 }
-
- 
-}
-
- 
- 
-
- 
-}

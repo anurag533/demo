@@ -55,9 +55,6 @@ bat 'mvn sonar:sonar'
 }
 
  
-}
-
- 
 stage ('Artifactory') {
 
  

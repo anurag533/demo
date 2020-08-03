@@ -66,7 +66,7 @@ steps {
 rtUpload (
 
  
-serverId: 'anuragsharma', // Obtain an Artifactory server instance, defined in Jenkins --> Manage:
+serverId: 'jfrog', // Obtain an Artifactory server instance, defined in Jenkins --> Manage:
 
  
 spec: """{

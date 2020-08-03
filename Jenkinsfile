@@ -82,7 +82,7 @@ spec: """{
 "pattern": "*/*.war",
 
  
-"target": "artifactory/"
+"target": "demo1/"
 
  
 }

@@ -33,4 +33,3 @@ bat 'mvn sonar:sonar'
 }
 }
 }
-}

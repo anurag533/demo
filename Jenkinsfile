@@ -15,6 +15,21 @@ steps{
 withSonarQubeEnv('SonarQuabedefault') { // If you have configured more than one global server connection, you can specify its name
 bat 'mvn sonar:sonar'
 }
+ stage ('Artifactory') {
+            steps {
+                rtUpload (
+                    serverId: 'anuragsharma', 
+                    spec: """{
+                            "files": [
+                                    {
+                                        "pattern": "*/*.war",
+                                        "target": "artifactory/"
+                                    }
+                                ]
+                            }"""
+                )
+            }
+        }
 }
 }
 }
